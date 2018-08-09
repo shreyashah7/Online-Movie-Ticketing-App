@@ -1,0 +1,319 @@
+.registration-header {
+    background: none repeat scroll 0 0 #232323;
+    box-shadow: 0 2px 2px rgba(50, 50, 50, 0.3);
+    height: auto;
+    max-height: 74px;
+    position: relative;
+    transition: background-color 0.2s ease-in-out 0s;
+    width: 100%;
+}
+
+.nav-bar {
+    border-bottom: 2px solid #F15500;
+    height: 66px;
+    position: relative;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 91.429em;
+}
+
+.column.large-centered, .columns.large-centered {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        float: none !important;
+}
+
+.large-11 {
+    width: 91.66667%;
+}
+
+.column, .columns {
+    position: relative;
+    padding-left: 0.714em;
+    padding-right: 0.714em;
+    float: left;
+}
+
+div {
+    display: block;
+}
+
+.inline-items {
+    height: 66px;
+    line-height: 64px;
+    margin: 0;
+    font-size: 0;
+    display: inline-block;
+    width: auto;
+}
+
+ul {
+    padding: 0;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.inline-items > li {
+    display: inline-block;
+    height: 66px;
+    vertical-align: middle;
+}
+
+.site-logo, .global-search {
+    position: relative;
+}
+
+.site-logo {
+    width: 232px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.inline-items {
+    height: 66px;
+    line-height: 64px;
+    margin: 0;
+    font-size: 0;
+    display: inline-block;
+    width: auto;
+}
+
+.fandango-logo {
+    display: block;
+    margin: 0 0 0 10px;
+    height: 64px;
+    width: 232px;
+    position: relative;
+}
+
+a {
+    color: #4aa7f6;
+    text-decoration: none;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.brand-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    width: 222px;
+}
+
+.registration-mode {
+    height: 66px;
+    text-align: right;
+    padding-top: 24px;
+}
+
+.right {
+    float: right !important;
+}
+
+.cta {
+    color: #4aa7f6;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.page.registration {
+    padding: 80px 0 136px;
+}
+
+.site-wrep.signin {
+    min-height: 1150px;
+}
+
+.site-wrep {
+    background-color: #000000;
+}
+
+.signin {
+    border-radius: 0px;
+    color: #fff;
+    margin: 0 0 0 0;
+}
+
+.site-wrep {
+    background-size: cover;
+}
+
+.open-form{
+    margin-top: 150px;
+    margin-left: 40%;
+    width: 350px;
+    background: none repeat scroll 0 0 rgba(34, 34, 34, 0.8);
+    border: 1px solid #929292;
+    overflow: visible;
+
+}
+
+.sign-form{
+    margin-top: 80px;
+    min-height: 550px;
+    margin-left: 40%;
+    width: 350px;
+    background: none repeat scroll 0 0 rgba(34, 34, 34, 0.8);
+    border: 1px solid #929292;
+    overflow: visible;
+
+}
+
+.join-header {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+p {
+    color: #4c4c4c;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 0 0 1em 0;
+}
+
+.page-header-emphasis {
+    color: #FF7900;
+}
+
+.registration-caption {
+    display: block;
+    margin: 10px auto 25px auto;
+}
+
+.registration-caption, .free-caption {
+    font-family: "Times New Roman",Times,Baskerville,Georgia,serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 22px;
+    color: #FFF;
+}
+.hide-for-small-only{
+    display: inherit !important;
+}
+
+.show-for-small-only
+{
+    display: none !important;
+}
+
+.sub-panel {
+    padding: 25px 25px 0;
+}
+
+label {
+    color: #FFF;
+    padding-top: 15px;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
+    border-radius: 4px;
+    -webkit-appearance: none;
+    background-color: white;
+    font-family: inherit;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0.5rem;
+    height: 30px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+    -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+    transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+
+}
+
+.signin .btn-cta.full-width {
+    margin-top: 50px;
+    background-color: rgba(74, 167, 246, 0.8)
+
+}
+
+.panel .btn-cta {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.btn-cta {
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 1em 0;
+    outline: none;
+    padding: 15px 15px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.password-instruction {
+    font-style: italic;
+    text-align: left;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "kafka-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "kafka-node": "^2.2.3",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "mongodb": "^2.2.35",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-authenticate": "^1.2.0",
+    "sequelize": "^4.37.6",
+    "server": "^1.0.18",
+    "underscore": "^1.8.3"
+  }
+}

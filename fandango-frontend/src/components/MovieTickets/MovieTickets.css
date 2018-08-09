@@ -1,0 +1,1549 @@
+.tickets-area-main{
+    padding-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    display: block;
+    color: #4C4C4C;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    clear: both;
+
+}
+
+.tickets-area-main:before{
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    content: "";
+    font-size: 0;
+    line-height: 0;
+}
+
+.tickets-area-main:after{
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    content: "";
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+}
+
+.tickets-area-main-div{
+    float: left;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+#TICKETS_SECTION_1 {
+    background-image: url("https://images.fandango.com/fandango-www/screenplay/assets/images/desktop/movie/bg-header.aa292583a36.jpg");
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 97px;
+    outline-color: rgb(76, 76, 76);
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 1665px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 832.5px 48.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 832.5px 48.5px;
+    caret-color: rgb(76, 76, 76);
+    background: rgba(0, 0, 0, 0) url("https://images.fandango.com/fandango-www/screenplay/assets/images/desktop/movie/bg-header.aa292583a36.jpg") no-repeat scroll 50% 0px / cover padding-box border-box;
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 832.5px 48.5px;
+}/*#SECTION_1*/
+
+#TICKETS_DIV_2 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 97px;
+    margin-left: 192.5px;
+    margin-right: 192.5px;
+    max-width: 1280px;
+    outline-color: rgb(76, 76, 76);
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 1280px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 640px 48.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 640px 48.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    margin: 0px 192.5px;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 640px 48.5px;
+}/*#DIV_2*/
+
+#TICKETS_DIV_2:after {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(76, 76, 76);
+    content: '""';
+    display: block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 0px;
+    height: 0px;
+    line-height: 0px;
+    outline-color: rgb(76, 76, 76);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    visibility: hidden;
+    width: 0px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 0px 0px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 0px 0px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 0px / 0px proxima-nova, Helvetica, Arial, sans-serif;
+    outline: rgb(76, 76, 76) none 0px;
+    overflow: hidden;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 0px 0px;
+}/*#DIV_2:after*/
+
+#TICKETS_DIV_2:before {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    content: '""';
+    display: block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 0px;
+    height: 0px;
+    line-height: 0px;
+    outline-color: rgb(76, 76, 76);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    visibility: hidden;
+    width: 0px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 0px 0px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 0px 0px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 0px / 0px proxima-nova, Helvetica, Arial, sans-serif;
+    outline: rgb(76, 76, 76) none 0px;
+    overflow: hidden;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 0px 0px;
+}/*#DIV_2:before*/
+
+#TICKETS_DIV_3 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    text-align: left;
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(76, 76, 76);
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 87px;
+    outline-color: rgb(76, 76, 76);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 1280px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 640px 43.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 640px 43.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    outline: rgb(76, 76, 76) none 0px;
+    padding: 0px 10px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 640px 43.5px;
+}/*#DIV_3*/
+
+#H1_4 {
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    outline-color: rgb(255, 255, 255);
+    text-decoration: none solid rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+
+    column-rule-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    perspective-origin: 170.828px 22.5px;
+    -webkit-text-emphasis-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    transform-origin: 170.828px 22.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font: normal normal 400 normal 48px / 45px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    margin: 20px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-border-after: 0px none rgb(255, 255, 255);
+    -webkit-border-before: 0px none rgb(255, 255, 255);
+    -webkit-border-end: 0px none rgb(255, 255, 255);
+    -webkit-border-start: 0px none rgb(255, 255, 255);
+    -webkit-transform-origin: 170.828px 22.5px;
+}/*#H1_4*/
+
+#SPAN_5, #SPAN_6 {
+    border-bottom-color: rgb(253, 100, 0);
+    border-left-color: rgb(253, 100, 0);
+    border-right-color: rgb(253, 100, 0);
+    border-top-color: rgb(253, 100, 0);
+    box-sizing: border-box;
+    color: rgb(253, 100, 0);
+    font-family: alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    font-size: 48px;
+    line-height: 45px;
+    outline-color: rgb(253, 100, 0);
+    text-decoration: none solid rgb(253, 100, 0);
+    text-decoration-color: rgb(253, 100, 0);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    column-rule-color: rgb(253, 100, 0);
+    -webkit-font-smoothing: antialiased;
+    perspective-origin: 0px 0px;
+    -webkit-text-emphasis-color: rgb(253, 100, 0);
+    -webkit-text-fill-color: rgb(253, 100, 0);
+    -webkit-text-stroke-color: rgb(253, 100, 0);
+    transform-origin: 0px 0px;
+    caret-color: rgb(253, 100, 0);
+    border: 0px none rgb(253, 100, 0);
+    border-top: 0px none rgb(253, 100, 0);
+    border-right: 0px none rgb(253, 100, 0);
+    border-bottom: 0px none rgb(253, 100, 0);
+    border-left: 0px none rgb(253, 100, 0);
+    border-color: rgb(253, 100, 0);
+    font: normal normal 400 normal 48px / 45px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    outline: rgb(253, 100, 0) none 0px;
+    -webkit-border-after: 0px none rgb(253, 100, 0);
+    -webkit-border-before: 0px none rgb(253, 100, 0);
+    -webkit-border-end: 0px none rgb(253, 100, 0);
+    -webkit-border-start: 0px none rgb(253, 100, 0);
+    -webkit-transform-origin: 0px 0px;
+}/*#SPAN_5, #SPAN_6*/
+
+#BUTTON_7 {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIyNyIgdmlld0JveD0iMCAwIDI5IDI3Ij48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMC45IDBjLTIuNiAwLTQuOSAxLjItNi40IDMuMi0xLjUtMi0zLjktMy4yLTYuNC0zLjItNC41IDAtOC4xIDMuNy04LjEgOC4ydi43YzAgMi41IDEuMSA0LjkgMy4yIDdsMTAuMyAxMC4zLjkuOS44LS44YzEuNS0xLjQgNi41LTYuNCAxMC40LTEwLjQgMS42LTEuNiAyLjYtMy40IDMtNS4yLjMtLjkuNC0xLjcuNC0yLjUgMC00LjUtMy42LTguMi04LjEtOC4yem0tMTIuOCAyLjJjMi40IDAgNC41IDEuNCA1LjQgMy42bDEgMi4zIDEtMi4zYy45LTIuMiAzLjEtMy42IDUuNC0zLjYgMy4zIDAgNS45IDIuNyA1LjkgNiAwIC42LS4xIDEuMi0uMyAxLjktLjMgMS41LTEuMSAyLjktMi40IDQuMi0zLjUgMy42LTggOC05LjcgOS43bC05LjctOS43Yy0xLjctMS43LTIuNS0zLjUtMi42LTUuNXYtLjZjLjEtMy4zIDIuNy02IDYtNnoiLz48L3N2Zz4=");
+    background-repeat: no-repeat;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-style: none;
+    border-top-width: 0px;
+    bottom: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    font-size: 0px;
+    height: 27px;
+    left: 0px;
+    line-height: 45px;
+    margin-left: 5px;
+    min-height: 0px;
+    outline-color: rgb(255, 255, 255);
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: -5px;
+    width: 29px;
+    -webkit-appearance: none;
+    column-rule-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    perspective-origin: 14.5px 13.5px;
+    -webkit-text-emphasis-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    transform-origin: 14.5px 13.5px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIyNyIgdmlld0JveD0iMCAwIDI5IDI3Ij48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMC45IDBjLTIuNiAwLTQuOSAxLjItNi40IDMuMi0xLjUtMi0zLjktMy4yLTYuNC0zLjItNC41IDAtOC4xIDMuNy04LjEgOC4ydi43YzAgMi41IDEuMSA0LjkgMy4yIDdsMTAuMyAxMC4zLjkuOS44LS44YzEuNS0xLjQgNi41LTYuNCAxMC40LTEwLjQgMS42LTEuNiAyLjYtMy40IDMtNS4yLjMtLjkuNC0xLjcuNC0yLjUgMC00LjUtMy42LTguMi04LjEtOC4yem0tMTIuOCAyLjJjMi40IDAgNC41IDEuNCA1LjQgMy42bDEgMi4zIDEtMi4zYy45LTIuMiAzLjEtMy42IDUuNC0zLjYgMy4zIDAgNS45IDIuNyA1LjkgNiAwIC42LS4xIDEuMi0uMyAxLjktLjMgMS41LTEuMSAyLjktMi40IDQuMi0zLjUgMy42LTggOC05LjcgOS43bC05LjctOS43Yy0xLjctMS43LTIuNS0zLjUtMi42LTUuNXYtLjZjLjEtMy4zIDIuNy02IDYtNnoiLz48L3N2Zz4=") no-repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+    font: normal normal 400 normal 0px / 45px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    margin: 0px 0px 0px 5px;
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-border-after: 0px none rgb(255, 255, 255);
+    -webkit-border-before: 0px none rgb(255, 255, 255);
+    -webkit-border-end: 0px none rgb(255, 255, 255);
+    -webkit-border-start: 0px none rgb(255, 255, 255);
+    -webkit-transform-origin: 14.5px 13.5px;
+}/*#BUTTON_7*/
+
+#UL_8 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 22px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    outline-color: rgb(76, 76, 76);
+    padding-left: 0px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 630px 11px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 630px 11px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 10px 0px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    padding: 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 630px 11px;
+}/*#UL_8*/
+
+#LI_9 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 17px;
+    list-style-type: none;
+    margin-right: 36px;
+    outline-color: rgb(76, 76, 76);
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 71.4688px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 35.7344px 8.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 35.7344px 8.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 36px 0px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 35.7344px 8.5px;
+}/*#LI_9*/
+
+#A_10, #A_12, #A_14, #A_16, #A_18 {
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    list-style-type: none;
+    outline-color: rgb(255, 255, 255);
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 0px 0px;
+    -webkit-text-decorations-in-effect: none;
+    -webkit-text-emphasis-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    transform-origin: 0px 0px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font: normal normal 700 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-border-after: 0px none rgb(255, 255, 255);
+    -webkit-border-before: 0px none rgb(255, 255, 255);
+    -webkit-border-end: 0px none rgb(255, 255, 255);
+    -webkit-border-start: 0px none rgb(255, 255, 255);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -webkit-transform-origin: 0px 0px;
+}/*#A_10, #A_12, #A_14, #A_16, #A_18*/
+
+#LI_11 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 17px;
+    list-style-type: none;
+    margin-right: 36px;
+    outline-color: rgb(76, 76, 76);
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 78.7031px 8.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 78.7031px 8.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 36px 0px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 78.7031px 8.5px;
+}/*#LI_11*/
+
+#LI_13 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 17px;
+    list-style-type: none;
+    margin-right: 36px;
+    outline-color: rgb(76, 76, 76);
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 67.625px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 33.8125px 8.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 33.8125px 8.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 36px 0px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 33.8125px 8.5px;
+}/*#LI_13*/
+
+#LI_15 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 17px;
+    list-style-type: none;
+    margin-right: 36px;
+    outline-color: rgb(76, 76, 76);
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 53.7812px 8.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 53.7812px 8.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 36px 0px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 53.7812px 8.5px;
+}/*#LI_15*/
+
+#LI_17 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 17px;
+    list-style-type: none;
+    margin-right: 36px;
+    outline-color: rgb(76, 76, 76);
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 63.4531px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 31.7188px 8.5px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 31.7188px 8.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 36px 0px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 31.7188px 8.5px;
+}/*#LI_17*/
+
+#LI_19 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 22px;
+    left: 0px;
+    list-style-type: none;
+    outline-color: rgb(76, 76, 76);
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 69.8594px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 34.9219px 11px;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    transform-origin: 34.9219px 11px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(76, 76, 76) none 0px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transform-origin: 34.9219px 11px;
+}/*#LI_19*/
+
+#A_20 {
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 22px;
+    line-height: 16.8px;
+    list-style-type: none;
+    outline-color: rgb(255, 255, 255);
+    padding-bottom: 2px;
+    padding-top: 4px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    width: 69.8594px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 34.9219px 11px;
+    -webkit-text-decorations-in-effect: none;
+    -webkit-text-emphasis-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    transform-origin: 34.9219px 11px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font: normal normal 700 normal 14px / 16.8px proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 4px 0px 2px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-border-after: 0px none rgb(255, 255, 255);
+    -webkit-border-before: 0px none rgb(255, 255, 255);
+    -webkit-border-end: 0px none rgb(255, 255, 255);
+    -webkit-border-start: 0px none rgb(255, 255, 255);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -webkit-transform-origin: 34.9219px 11px;
+}/*#A_20*/
+
+#A_20:after {
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 7px;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 7px;
+    border-top-color: rgb(241, 85, 0);
+    border-top-style: solid;
+    border-top-width: 11px;
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    content: '""';
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 11px;
+    line-height: 16.8px;
+    list-style-type: none;
+    margin-left: 6px;
+    margin-right: 10px;
+    outline-color: rgb(255, 255, 255);
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 14px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 7px 5.5px;
+    -webkit-text-decorations-in-effect: none;
+    -webkit-text-emphasis-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    transform-origin: 7px 5.5px;
+    caret-color: rgb(255, 255, 255);
+    border-top: 11px solid rgb(241, 85, 0);
+    border-right: 7px solid rgba(0, 0, 0, 0);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 7px solid rgba(0, 0, 0, 0);
+    border-width: 11px 7px 0px;
+    border-color: rgb(241, 85, 0) rgba(0, 0, 0, 0) rgb(255, 255, 255);
+    border-style: solid solid none;
+    font: normal normal 700 normal 14px / 16.8px proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 10px 0px 6px;
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-border-after: 0px none rgb(255, 255, 255);
+    -webkit-border-before: 11px solid rgb(241, 85, 0);
+    -webkit-border-end: 7px solid rgba(0, 0, 0, 0);
+    -webkit-border-start: 7px solid rgba(0, 0, 0, 0);
+    -webkit-transform-origin: 7px 5.5px;
+}/*#A_20:after*/
+
+#UL_21 {
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: none;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    left: 0px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    outline-color: rgb(76, 76, 76);
+    padding-bottom: 7px;
+    padding-left: 0px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    z-index: 50;
+    column-rule-color: rgb(76, 76, 76);
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    caret-color: rgb(76, 76, 76);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    padding: 0px 0px 7px;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+}/*#UL_21*/
+
+#LI_22, #LI_24 {
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    margin-right: 36px;
+    outline-color: rgb(76, 76, 76);
+    padding-left: 15px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 196px;
+    column-rule-color: rgb(76, 76, 76);
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    caret-color: rgb(76, 76, 76);
+
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-left: 0px none rgb(76, 76, 76);
+    border-width: 0px 0px 3px;
+    border-color: rgb(76, 76, 76) rgb(76, 76, 76) rgb(255, 255, 255);
+    border-style: none none solid;
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 36px 0px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    padding: 0px 0px 0px 15px;
+    -webkit-border-after: 3px solid rgb(255, 255, 255);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+}/*#LI_22, #LI_24*/
+
+#A_23, #A_25 {
+    border-bottom-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: rgb(76, 76, 76);
+    border-top-color: rgb(76, 76, 76);
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    list-style-type: none;
+    outline-color: rgb(76, 76, 76);
+    padding-bottom: 2px;
+    padding-top: 4px;
+    text-align: left;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-decoration-line: none;
+    text-decoration-color: rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    column-rule-color: rgb(76, 76, 76);
+    -webkit-text-decorations-in-effect: none;
+    -webkit-text-emphasis-color: rgb(76, 76, 76);
+    -webkit-text-fill-color: rgb(76, 76, 76);
+    -webkit-text-stroke-color: rgb(76, 76, 76);
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    border-color: rgb(76, 76, 76);
+    font: normal normal 700 normal 14px / 16.8px proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(76, 76, 76) none 0px;
+    padding: 4px 0px 2px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-border-after: 0px none rgb(76, 76, 76);
+    -webkit-border-before: 0px none rgb(76, 76, 76);
+    -webkit-border-end: 0px none rgb(76, 76, 76);
+    -webkit-border-start: 0px none rgb(76, 76, 76);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+}/*#A_23, #A_25*/
+
+
+
+
+
+
+
+#datepickerDIV_1 {
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    height: 125px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    width: 940px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 470px 62.5px;
+    transform-origin: 470px 62.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    outline: rgb(76, 76, 76) none 0px;
+    overflow: hidden;
+}/*#datepickerDIV_1*/
+
+#datepickerSECTION_2 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    height: 125px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 846px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 423px 62.5px;
+    transform-origin: 423px 62.5px;
+    caret-color: rgb(76, 76, 76);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    margin: 0px 47px;
+    outline: rgb(76, 76, 76) none 0px;
+}/*#datepickerSECTION_2*/
+
+#datepickerUL_3 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    height: 125px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    white-space: nowrap;
+    width: 846px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 423px 62.5px;
+    transform-origin: 423px 62.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    font: normal normal 400 normal 0px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(76, 76, 76) none 0px;
+    padding: 0px;
+}/*#datepickerUL_3*/
+
+#datepickerLI_4, #datepickerLI_9, #datepickerLI_14, #datepickerLI_19, #datepickerLI_24, #datepickerLI_29, #datepickerLI_34, #datepickerLI_39 {
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    height: 125px;
+    text-align: center;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    vertical-align: top;
+    width: 123px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 61.5px 62.5px;
+    transform-origin: 61.5px 62.5px;
+    caret-color: rgb(76, 76, 76);
+    border: 0px none rgb(76, 76, 76);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(76, 76, 76) none 0px;
+}/*#datepickerLI_4, #datepickerLI_9, #datepickerLI_14, #datepickerLI_19, #datepickerLI_24, #datepickerLI_29, #datepickerLI_34, #datepickerLI_39*/
+
+#datepickerA_5 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    display: block;
+    height: 125px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 123px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 61.5px 62.5px;
+    transform-origin: 61.5px 62.5px;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 1px solid rgb(235, 235, 235);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    transition: color 0.3s linear 0s;
+}/*#datepickerA_5*/
+
+#datepickerSPAN_6 {
+    bottom: 97px;
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 122px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 61px 14px;
+    transform-origin: 61px 14px;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: italic normal 400 normal 16px / normal "Times New Roman", Georgia, serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 5px 0px;
+}/*#datepickerSPAN_6*/
+
+#datepickerSPAN_7 {
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 75px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 122px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 61px 37.5px;
+    transform-origin: 61px 37.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 30px / 30px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 45px 0px 0px;
+}/*#datepickerSPAN_7*/
+
+#datepickerSPAN_8 {
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 122px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 61px 17px;
+    transform-origin: 61px 17px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 44px / 34px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#datepickerSPAN_8*/
+
+#datepickerA_10, #datepickerA_15, #datepickerA_20, #datepickerA_25, #datepickerA_30, #datepickerA_35, #datepickerA_40 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    display: block;
+    height: 125px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-decoration: none solid rgb(146, 146, 146);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 123px;
+    column-rule-color: rgb(146, 146, 146);
+    perspective-origin: 61.5px 62.5px;
+    transform-origin: 61.5px 62.5px;
+    caret-color: rgb(146, 146, 146);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(146, 146, 146);
+    border-right: 0px none rgb(146, 146, 146);
+    border-bottom: 0px none rgb(146, 146, 146);
+    border-left: 1px solid rgb(235, 235, 235);
+    font: normal normal 400 normal 14px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(146, 146, 146) none 0px;
+    transition: color 0.3s linear 0s;
+}/*#datepickerA_10, #datepickerA_15, #datepickerA_20, #datepickerA_25, #datepickerA_30, #datepickerA_35, #datepickerA_40*/
+
+#datepickerSPAN_11, #datepickerSPAN_16, #datepickerSPAN_21, #datepickerSPAN_26, #datepickerSPAN_31, #datepickerSPAN_36, #datepickerSPAN_41 {
+    bottom: 97px;
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    text-decoration: none solid rgb(146, 146, 146);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 122px;
+    column-rule-color: rgb(146, 146, 146);
+    perspective-origin: 61px 14px;
+    transform-origin: 61px 14px;
+    caret-color: rgb(146, 146, 146);
+    border: 0px none rgb(146, 146, 146);
+    font: italic normal 400 normal 16px / normal "Times New Roman", Georgia, serif;
+    list-style: none outside none;
+    outline: rgb(146, 146, 146) none 0px;
+    padding: 5px 0px;
+}/*#datepickerSPAN_11, #datepickerSPAN_16, #datepickerSPAN_21, #datepickerSPAN_26, #datepickerSPAN_31, #datepickerSPAN_36, #datepickerSPAN_41*/
+
+#datepickerSPAN_12, #datepickerSPAN_17, #datepickerSPAN_22, #datepickerSPAN_27, #datepickerSPAN_32, #datepickerSPAN_37, #datepickerSPAN_42 {
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 75px;
+    text-align: center;
+    text-decoration: none solid rgb(146, 146, 146);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 122px;
+    column-rule-color: rgb(146, 146, 146);
+    perspective-origin: 61px 37.5px;
+    transform-origin: 61px 37.5px;
+    caret-color: rgb(146, 146, 146);
+    border: 0px none rgb(146, 146, 146);
+    font: normal normal 400 normal 30px / 30px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(146, 146, 146) none 0px;
+    padding: 45px 0px 0px;
+}/*#datepickerSPAN_12, #datepickerSPAN_17, #datepickerSPAN_22, #datepickerSPAN_27, #datepickerSPAN_32, #datepickerSPAN_37, #datepickerSPAN_42*/
+
+#datepickerSPAN_13, #datepickerSPAN_18, #datepickerSPAN_28, #datepickerSPAN_38 {
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    text-align: center;
+    text-decoration: none solid rgb(146, 146, 146);
+    text-size-adjust: 100%;
+    width: 122px;
+    column-rule-color: rgb(146, 146, 146);
+    perspective-origin: 61px 17px;
+    transform-origin: 61px 17px;
+    caret-color: rgb(146, 146, 146);
+    border: 0px none rgb(146, 146, 146);
+    font: normal normal 400 normal 44px / 34px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(146, 146, 146) none 0px;
+}/*#datepickerSPAN_13, #datepickerSPAN_18, #datepickerSPAN_28, #datepickerSPAN_38*/
+
+#datepickerSPAN_23, #datepickerSPAN_33 {
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    text-align: center;
+    text-decoration: none solid rgb(146, 146, 146);
+    text-size-adjust: 100%;
+    width: 122px;
+    column-rule-color: rgb(146, 146, 146);
+    perspective-origin: 61px 17px;
+    transform-origin: 61px 17px;
+    caret-color: rgb(146, 146, 146);
+    border: 0px none rgb(146, 146, 146);
+    font: normal normal 400 normal 44px / 34px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(146, 146, 146) none 0px;
+}/*#datepickerSPAN_23, #datepickerSPAN_33*/
+
+#datepickerSPAN_43 {
+    box-sizing: border-box;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    text-align: center;
+    text-decoration: none solid rgb(146, 146, 146);
+    text-size-adjust: 100%;
+    width: 122px;
+    column-rule-color: rgb(146, 146, 146);
+    perspective-origin: 61px 17px;
+    transform-origin: 61px 17px;
+    caret-color: rgb(146, 146, 146);
+    border: 0px none rgb(146, 146, 146);
+    font: normal normal 400 normal 44px / 34px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(146, 146, 146) none 0px;
+}/*#datepickerSPAN_43*/
+
+#datepickerBUTTON_44 {
+    bottom: 0px;
+    color: rgb(76, 76, 76);
+    cursor: pointer;
+    display: block;
+    height: 125px;
+    left: -46.5156px;
+    min-height: 0px;
+    position: absolute;
+    right: 846px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: middle;
+    width: 46.5156px;
+    z-index: 1;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 23.25px 62.5px;
+    transform-origin: 23.25px 62.5px;
+    user-select: none;
+    caret-color: rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 1px solid rgb(235, 235, 235);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    font: normal normal 400 normal 0px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    outline: rgb(76, 76, 76) none 0px;
+}/*#datepickerBUTTON_44*/
+
+#datepickerBUTTON_44:after {
+    background-position: 1px 50%;
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    content: '""';
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    left: 0px;
+    opacity: 0.8;
+    position: absolute;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 20px;
+    column-rule-color: rgb(76, 76, 76);
+    user-select: none;
+    caret-color: rgb(76, 76, 76);
+    background: rgba(0, 0, 0, 0) url("https://images.fandango.com/fandango-www/screenplay/assets/images/desktop/icons/global/left-arrow.svg") no-repeat scroll 1px 50% / auto padding-box border-box;
+    border: 0px none rgb(76, 76, 76);
+    font: normal normal 400 normal 0px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    margin: auto;
+    outline: rgb(76, 76, 76) none 0px;
+}/*#datepickerBUTTON_44:after*/
+
+#datepickerBUTTON_44:before {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    content: '""';
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    left: 0px;
+    position: absolute;
+    right: 25.5156px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 20px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 10px 20px;
+    transform-origin: 10px 20px;
+    user-select: none;
+    caret-color: rgb(76, 76, 76);
+    background: rgb(235, 235, 235) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(76, 76, 76);
+    border-radius: 0 40px 40px 0;
+    font: normal normal 400 normal 0px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    margin: 42.5px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+}/*#datepickerBUTTON_44:before*/
+
+#datepickerBUTTON_45 {
+
+    bottom: 0px;
+    color: rgb(76, 76, 76);
+    cursor: pointer;
+    display: block;
+    height: 125px;
+    left: 846.859px;
+    min-height: 0px;
+    position: absolute;
+    right: -47.375px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: middle;
+    width: 46.5156px;
+    z-index: 1;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 23.25px 62.5px;
+    transform-origin: 23.25px 62.5px;
+    user-select: none;
+    caret-color: rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 0px none rgb(76, 76, 76);
+    border-left: 1px solid rgb(235, 235, 235);
+    font: normal normal 400 normal 0px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    /*outline: rgb(76, 76, 76) none 0px;*/
+
+
+
+}/*#datepickerBUTTON_45*/
+
+
+#datepickerBUTTON_45:before {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    content: '""';
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    left: 25.5156px;
+    position: absolute;
+    right: 0px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 20px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 10px 20px;
+    transform-origin: 10px 20px;
+    user-select: none;
+    caret-color: rgb(76, 76, 76);
+    background: rgb(235, 235, 235) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(76, 76, 76);
+    border-radius: 40px 0 0 40px;
+    font: normal normal 400 normal 0px / normal proxima-nova, Helvetica, Arial, sans-serif;
+    margin: 42.5px 0px;
+    outline: rgb(76, 76, 76) none 0px;
+}/*#datepickerBUTTON_45:before*/
+
+
+.msp__movie-details-container{
+    width: 34%;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    color: #4C4C4C;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.theaters{
+    margin-bottom: 15px;
+    width: auto;
+    padding: 0 .5rem;
+    padding-top: 63px;
+    display: block;
+    box-sizing: border-box;
+    color: #4C4C4C;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    flex:1
+}
+
+
+.page-header-container2 {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 91.429em;
+}
+
+.large-122 {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.column2, .columns2 {
+    position: relative;
+    padding-left: .714em;
+    padding-right: .714em;
+    float: left;
+}
+
+.page-header2 {
+    color: #4c4c4c;
+    margin: 40px 0 10px;
+}
+
+.genre-list2{
+    height: 50px;
+    text-align: left;
+
+
+}
+
+
+.sub-genre2{
+    margin-left: 15px;
+    background-color: white;
+    color: #32b4ff;
+    border-radius: 0px;
+}
+
+.sub-genre2:hover {
+    background-color: #32b4ff !important; ;
+    color: white !important;
+}

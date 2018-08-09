@@ -1,0 +1,217 @@
+.site-wrap {
+    position: relative;
+    min-width: 320px;
+    overflow: hidden;
+    min-height: 1000px;
+    background-color: #EBEBEB;
+}
+
+.page-header-container {
+    background: none;
+    margin-bottom: 0;
+}
+
+.page-header-container {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 91.429em;
+}
+
+.large-12 {
+    width: 100%;
+    text-align: left;
+    margin-left: 9.5%;
+}
+
+.column, .columns {
+    position: relative;
+    padding-left: .714em;
+    padding-right: .714em;
+    float: left;
+}
+
+.page-header {
+    color: #4c4c4c;
+
+}
+
+.page-header {
+    margin: 40px 0 2px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 45px;
+}
+
+h1, h2, h3 {
+    font-family: "alternate-gothic-no-1-d","Futura Condensed","Arial Narrow",Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 0;
+    color: #4c4c4c;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.list-header{
+    border: 1px solid black;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.list-font{
+    color: white;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.list-moviedetails{
+    border: 1px solid #cccccc;
+    height: 200px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 0px;
+
+
+}
+
+.img-style{
+    position: absolute;
+    margin-left: 0%;
+    padding-left: 0px;
+    text-align: left;
+    height: 200px;
+    width: 15%
+
+}
+
+.img-peculiar{
+    position: absolute;
+    text-align: left;
+    height: 170px;
+    width: 100%
+}
+
+.movie-heading{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 10px;
+    width: 25%;
+    font-weight: bold;
+    color: black;
+    height: 65px;
+    text-align: left;
+
+}
+
+.movie-extra-details{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 85px;
+    width: 25%;
+    font-weight: bold;
+    font-style: italic;
+    height: 80px;
+    text-align: left;
+}
+
+.cast{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 10px;
+    width: 35%;
+    height: 40px;
+    text-align: left;
+
+}
+
+.see-it-in{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 85px;
+    width: 35%;
+    height: 40px;
+    text-align: left;
+}
+
+.gap{
+    padding-bottom: 3px;
+}
+
+.book-now{
+    position: absolute;
+    margin-left: 50%;
+    width: 100px;
+    height: 20px;
+    margin-top: 150px;
+    text-align: left;
+
+}
+
+.buy-tickets{
+    background-color: #FF7900;
+    color: white;
+}
+
+.genre-list{
+    height: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+
+
+}
+
+.sub-genre{
+    margin-left: 15px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    color: #32b4ff;
+    border-radius: 0px;
+}
+
+.sub-genre-bot{
+    margin-left: 15px;
+    width: 100px;
+    text-align: left;
+    padding-left: 0px;
+    background-color: white;
+    color: #32b4ff;
+    border-radius: 0px;
+}
+
+.sub-genre:hover {
+    background-color: #32b4ff !important; ;
+    color: white !important;
+}
+
+.sub-genre-bot:hover {
+    background-color: #32b4ff !important; ;
+    color: white !important;
+}
+
+
+.movie-link{
+    text-decoration: underline;
+    cursor: pointer;
+}

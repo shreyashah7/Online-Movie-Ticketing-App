@@ -1,0 +1,25 @@
+.admin-sub-header .navbar-nav li a{
+    font-family: 'Orienta', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+    text-decoration: none;
+}
+.admin-sub-header .navbar-nav li a::after{
+    display: inline-block;
+    margin-left: 3px;
+    border-top: 11px solid #F15500;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    content: "";
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+.custom-btn-link{
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-color: transparent;
+}

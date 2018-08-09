@@ -1,0 +1,366 @@
+.container-body {
+	width:100%;
+	margin: 0 auto;
+}
+
+label.mobile_menu span {
+	margin-left: 10px;
+	color: white;
+	display: none;
+}
+
+.fandango-nav {
+	font-family: 'Orienta', sans-serif; 
+	font-size: 14px;
+	line-height: 25px;
+	text-transform: uppercase;
+    font-weight: 700;
+	position: relative;
+	padding: 0 0 0 4px; /* Fix for inline-block spacing*/
+	margin: 0;
+    background-color: #3D3D3D;
+}
+
+.fandango-nav a, .fandango-nav a:link, .fandango-nav a:visited, .fandango-nav a:hover, .fandango-nav a:focus, span {
+	color: #fff;
+	text-decoration: none;
+}
+
+.fandango-nav > li {
+	display: inline-block;
+	text-align: center;
+	margin-left: -4px; /* For the inline-block spacing */
+}
+
+.fandango-nav > li > a {
+	padding:15px 18px;
+	display: block;
+}
+
+.fandango-nav > li:hover > a{
+	color: #fff;
+}
+
+.fandango-nav > li:hover {
+	background-color: #3D3D3D;
+}
+
+.fandango-nav > li > ul {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	list-style: none;
+	top:53px;
+	background-color: #16a085;
+	width: 200px;
+	text-align: left;
+	margin-top:30px;
+	padding: 0px;
+	z-index: 99;
+}
+
+.fandango-nav > li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+}
+
+.fandango-nav li > ul li {
+	font-size: 11px;
+	position: relative;
+	display: block;
+	padding: 15px 10px;
+}
+
+.fandango-nav > li > ul  li:hover {
+	background-color: #006191;
+}
+
+.fandango-nav ul  li:hover > a {
+	color: white;
+}
+
+.fandango-nav > li > ul li ul li:hover {
+	background-color: #F15500;
+}input#mobile_menu { display: none; }
+
+.fandango-nav > li > ul li ul li ul {
+	background-color: #004b6f;
+}
+
+.fandango-nav > li > ul li ul li ul li:hover {
+	background-color: #00344d;
+}
+
+.fandango-nav > li > .fulldrop {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	list-style: none;
+	top:53px;
+	left: 0px;
+	background-color: #333;
+	width: 100%;
+	min-height: 100px;
+	text-align: left;
+	margin-top:30px;
+	padding: 0;
+	z-index: 99;
+	overflow: hidden;
+}
+
+.fandango-nav > li:hover .fulldrop {
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+}
+
+.fandango-nav ul li:hover:after {
+	color: white;
+}
+
+.fandango-nav .column {
+	width: 14.1%;
+	float: left;
+	color:white;
+	margin: 0 0 0 2.2%;
+}
+
+.fandango-nav .column.large-column {
+	width: 100%;
+	float: left;
+	color:white;
+	margin: 0 0 0 2.2%;
+}
+
+.fandango-nav .column ul {
+	padding: 0;
+	margin: 0;
+}
+
+.fandango-nav .column ul li {
+	padding: 0;
+	list-style: none;
+	font-size: 11px;
+}
+
+.fandango-nav .column h3 {
+	font-size: 18px;
+    line-height: 25px;
+	padding: 14px 0;
+	font-weight: 700;
+	margin: 5px 0 5px 0;
+	color:#929292;
+}
+
+.fandango-nav .column ul li a {
+	display: block;
+	padding: 0 0 10px 0;
+}
+
+/* Arrows */
+.fandango-nav > li.drop-menu > a:after {
+	 display: inline-block;
+    margin-left: 3px;
+    border-top: 11px solid #F15500;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    content: "";
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.fandango-nav ul li.drop-menu:after {
+
+  position: absolute;
+  left: 170px;
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.fandango-nav > li.search {
+	display: inline-block;
+    line-height: normal;
+    margin-right: 4px;
+}
+
+.fandango-nav > li.search:hover {
+	background-color: transparent;
+}
+
+.fandango-nav > li  input {
+	position: relative;
+    padding: 5px 15px;
+    height: 20px;
+    border: 0;
+    border-radius: 19px;
+    background-color: #ebebeb;
+    background-color: rgba(235,235,235,.8);
+    box-shadow: inset 2px 3px 0 rgba(99,99,99,.5);
+    color: #333;
+    font-size: 16px;
+    font-family: "Times New Roman",Georgia,Serif;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+.fandango-nav > li  input:focus {
+	outline: none;
+	border-color: white;
+}
+
+.fandango-nav > li.search i {
+	position: absolute;
+	left: 20px;
+	top:20px;
+	color: #fff;
+	font-size: 17px;
+}
+
+#global-search {
+	margin-right:10px;
+}
+
+#global-search>form>.fan-autocomplete {
+    display: inline-block;
+    line-height: normal;
+    margin-right: 4px;
+    width: 314px;
+}
+
+.fan-input.style-search {
+    position: relative;
+    padding: 9px 15px;
+    height: 50%;
+    border: 0;
+    border-radius: 19px;
+    background-color: #ebebeb;
+    background-color: rgba(235,235,235,.8);
+    box-shadow: inset 2px 3px 0 rgba(99,99,99,.5);
+    color:#333;
+    font-size: 16px;
+    font-family: "Times New Roman",Georgia,Serif;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+#global-search>form>.fan-autocomplete>.fan-input {
+    width: 100%;
+    z-index: 1;
+}
+
+#global-search>form>.fan-btn {
+    line-height: normal;
+}
+
+.fan-btn-style-go {
+    padding: 0;
+    width: 38px;
+    height: 34px;
+    border-radius: 50%;
+	border:none;
+    background-color: #FE7900;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+	font-style:italic;
+}
+
+.header-logo{
+    width: 242px;
+    height: 30px;
+}
+.ad-topbanner{
+	min-height: 50px;
+	background-color: #EBEBEB;
+}
+.brand-bar{
+	background-color: #000;
+    color: #FFF;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+.header-link > a{
+	color: #CCC;
+    font-weight: 400;
+	padding: 0 1px;
+	font-size: 14px;
+}
+.header-link > .btn-link{
+	color: #CCC;
+    font-weight: 400;
+    padding: 0 1px;
+    font-size: 14px;
+}
+.fan-input.style-search:focus {
+    background-color: #FFF;
+    box-shadow: inset 0 1px 2px rgba(99,99,99,.5);
+    color: #333;
+}
+::placeholder {
+    color: #333;
+    opacity: 1; /* Firefox */
+}
+.sub-header{
+	padding-top: 0;
+    padding-bottom: 0;
+    background-color: #929292;
+}
+.ticket-label{
+	font-size: 22px;
+	line-height: 35px;
+	font-weight: 700;
+	color: white;
+	padding-right: 10px;
+	font-family: alternate-gothic-no-1-d,"Futura Condensed","Arial Narrow",Arial,sans-serif;
+}
+.movie-tickets-header--see-all:hover{
+	color: #0286F2 !important;
+	text-decoration: none;
+}
+.movie-ticket-header{
+	list-style: none;
+	padding-left: 0px;
+	float: left;
+}
+.movie-tickets-header--see-all {
+    margin: 0;
+    color: #ccc !important;
+    font-size: 14px;
+    font-weight: 700;
+	text-transform: uppercase;
+	line-height: 3;
+	float: left;
+    margin-left: -30px;
+}
+.mr-top-10{
+	margin-top: 10px;
+}
+.mr-top-25{
+	margin-top: 25px;
+}
+.mr-top-50{
+	margin-top: 50px;
+}
+.mr-right-0{
+	margin-right: 0px !important;
+}
+.vip-text{
+	color: #F15500;
+}
+.pd-left-0{
+	padding-left: 0px;
+}
+.pd-right-0{
+	padding-right: 0px;
+}

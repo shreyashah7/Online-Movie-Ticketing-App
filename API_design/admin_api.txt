@@ -1,0 +1,67 @@
+Admin Module:
+
+1) Add Movie Hall to the system:
+
+addHall(HallJSON):
+input: HallJSON
+HallJSON will contain : hall_name,street,city,state,zipcode,screen_nums.
+response: hall_id
+
+2) Add Movie to the system
+
+addMovie(MovieJSON)
+
+input: MovieJSON
+MovieJSON will contain: movie_name,description,see_it_in,trailer,photos,cast,movie_length,release_date,genres
+response: movie_id
+
+3) addScreens(screenJSON)
+
+input: screenJSON
+screenJSON will contain: hall_id,screen_num,screen_type,total_seats
+response: screen_id
+
+4) getMovies(search_movie)
+
+input: search_movie (It can be substring of a movie_name)
+response: list of MovieJSON's
+MovieJSON will contain: movie_id,movie_name,description,see_it_in,trailer,photos,cast,movie_length,release_date,genres
+
+5) getHalls(search_hall)
+
+input: search_hall(It can be a substring of a hall_name)
+response: list of HallJSON's
+HallJSON will contain: hall_id,hall_name,street,city,state,zipcode,screen_nums
+
+6) getScreens(hall_id)
+input: hall_id
+response: list of screenJSON
+screenJSON will contain: screen_id,hall_id,screen_num,screen_type,total_seats
+
+7) editMovie(MovieJSON)
+input: MovieJSON
+MovieJSON will contain: movie_id,movie_name,description,see_it_in,trailer,photos,cast,movie_length,release_date,genres
+response: UpdatedMovieJSON
+UpdatedMovieJSON will contain : movie_id,movie_name,description,see_it_in,trailer,photos,cast,movie_length,release_date,genres
+
+8) editHall(HallJSON)
+HallJSON will contain: hall_id,hall_name,street,city,state,zipcode,screen_nums
+response: updatedHallJSON
+updatedHallJSON: hall_id,hall_name,street,city,state,zipcode,screen_nums
+
+9) editScreen(ScreenJSON)
+screenJSON will contain: screen_id,hall_id,screen_num,screen_type,total_seats
+response: updatedScreenJSON
+updatedScreenJSON will contain: screen_id,hall_id,screen_num,screen_type,total_seats
+
+10) getBills(bill_date / bill_month)
+input: bill_date / bill_month
+response: list of billJSON
+billJSON will contain: bill_id,user_id,movie_schedule_id,amount,tax,total_price,no_of_seats,booking_date.
+
+11) getBillByID(bill_id)
+input: bill_id
+response billJSON
+billJSON will contain: bill_id,user_id,movie_schedule_id,amount,tax,total_price,no_of_seats,booking_date.
+
+

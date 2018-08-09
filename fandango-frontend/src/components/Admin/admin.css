@@ -1,0 +1,169 @@
+.admin-module {
+    background-color: dimgray;
+    padding: 100px;
+    font-family: 'Avenir LT Std', sans-serif;
+    padding-top: 150px;
+    padding-left: 300px;
+    padding-bottom: 600px;
+  }
+  
+  .admin-forms .form-control {
+    font-size: 2rem;
+    padding: 25px 15px;
+  }
+
+.admin-elements{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+#search {
+    margin-top: -9px;
+    margin-left: -3px;
+    width: 900px;
+}
+
+#dropdown{
+    z-index: -1;
+}
+
+#split-button-basic-1{
+    height: 54px;
+    width: 110%;
+}
+
+.admin-forms input {
+    height: 42px;
+    width: 800px;
+}
+
+.admin-module label {
+    font-size: 150%;
+    color: tomato;
+    padding-bottom: 20px;
+}
+
+#hidden {
+    display: none;
+    color: red;
+    font-size: 120%;
+}
+
+#hidden-alert {
+    display: none;
+    color: red;
+    font-size: 120%;
+    width: 900px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+/* @media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  } */
+
+
+#pic {
+    width: 140px;
+    height: 140px;
+  }
+
+ #response-message{
+    color: green;
+    display: none;
+    background-color: greenyellow;
+    font-weight: bold;
+    border: 2px solid forestgreen;
+    padding: 9px;
+    border-radius: 3px;
+    width: 500px;
+ } 
+
+ .searchUser{
+     background-color: rgba(124, 110, 110, 0.637);
+     padding-top: 20px;
+ }
+
+ .searchUser h4{
+    color: black;
+    font-weight: bold;
+ }
+
+ .UpdateUserForm {
+    background-color: white;
+ }
+
+ .user-gap{
+     height: 40px;
+ }
+
+ #response{
+     display: none;
+ }
+
+.hall-list li{
+    list-style-type: none;
+}
+
+.form-buttons {
+    float: left;
+}
+
+.screen-form .form-group {
+    float: left;
+}
+
+.screenButton{
+    padding-top: 34px;
+    padding-left: 10px;
+}
+
+.screenButton #trash {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.screenButton #save {
+    margin-left: 50px;
+}
+
+.screen-title {
+    padding-top: 34px;
+}
+
+.admin.form-group.required .control-label:after { 
+    content:"*";
+    color:red;
+    font-family: 'Glyphicons Halflings';
+    font-weight: normal;
+    font-size: 8px;
+    position: absolute;
+ }
+
+ .admin-forms button{
+     width: 332px;
+ }
+
+ .admin-forms a{
+    width: 326px;
+}
+
+#dlt-btn{
+    display: none;
+}
+
+.halldrop .dropdown {
+    float: left;
+    padding-left: 15px;
+}

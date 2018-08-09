@@ -1,0 +1,91 @@
+
+.crew-div{
+    position: relative;
+    top: 800px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+.carousel-cast-crew{
+    padding: 0 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+#crew_H3_1 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    height: 45px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    top: 0px;
+
+    backface-visibility: hidden;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 95.8906px 22.5px;
+    transform-origin: 95.8906px 22.5px;
+    caret-color: rgb(76, 76, 76);
+    border-top: 0px none rgb(76, 76, 76);
+    border-right: 0px none rgb(76, 76, 76);
+    border-bottom: 10px solid rgb(76, 76, 76);
+    border-left: 0px none rgb(76, 76, 76);
+    font: normal normal 400 normal 38px / 35px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    margin: 0px 0px 15px;
+    outline: rgb(76, 76, 76) none 0px;
+    padding: 0px 30px;
+}/*#crew_H3_1*/
+
+#crew_H3_1:after {
+    bottom: -15px;
+    box-sizing: border-box;
+    color: rgb(76, 76, 76);
+    content: '""';
+    display: block;
+    height: 10px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    text-decoration: none solid rgb(76, 76, 76);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    top: 40px;
+    width: 10px;
+    column-rule-color: rgb(76, 76, 76);
+    perspective-origin: 5px 5px;
+    transform-origin: 5px 5px;
+    caret-color: rgb(76, 76, 76);
+    background: rgb(235, 235, 235) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(76, 76, 76);
+    border-radius: 5px 5px 5px 5px;
+    font: normal normal 400 normal 38px / 35px alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    margin: 0px 90.8906px;
+    outline: rgb(76, 76, 76) none 0px;
+}/*#crew_H3_1:after*/
+
+.crew-div2{
+    width: 800px;
+}
+
+.crew-info{
+
+    margin-top: 12px;
+    min-height: 400px;
+    background-color: #262626;
+}
+
+.crew-font{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+}

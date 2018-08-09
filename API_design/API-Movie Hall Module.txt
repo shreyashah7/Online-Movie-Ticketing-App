@@ -1,0 +1,28 @@
+Movie Hall API:
+
+1) addMovieTimeInfo (timeInfoJSON):
+Inputs: movieId, hallId, screenId, showDate, showTime, price
+Returns: movieTimeInfoObject
+Desc: This API adds the time information like duration of movie, screenNo of the Movie Hall and the date on which it is going to display in a Movie Hall.
+
+2) getAllMovieListing(searchMovieJSON):
+Inputs: searchMovieJSON
+searchMovieJSON includes: movieName, zipCode, ratings, searchDate (Date on which user want to watch), showTime (Show time for that date)
+Returns: List of Movies of that week (movieObjects)
+Desc: This API retrieves all the movie listing in that Movie Hall for that week. This will be an initial first filter applied by default to the list.
+
+3) searchMovieListing (searchDate, showStartTime)
+Inputs: searchDate (Date on which user want to watch), showStartTime (Show time for that date)
+Returns: List of Movies of that week (movieObjects)
+Desc: This API retrieves all the movie listing in that Movie Hall with the given Date and the show time for that date.
+
+4) getRevenueByMovie (searchRevenueJSON)
+Inputs: searchRevenueJSON
+SearchRevenueJSON includes: movieId/hallId
+Returns: Total Revenue of that movie or hall according to the parameter passed.
+Desc: This API retrieves total revenue of the movie considering all the locations where it is listed or total revenue of the movie hall for that current year.
+
+5) cancelBooking (userId, bookingId)
+Inputs: userId, bookingId
+Returns: bookingId 
+Desc: This API cancels the booking of the user if cancellable.

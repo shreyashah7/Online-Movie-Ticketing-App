@@ -1,0 +1,172 @@
+.page-header-container{
+    background-color: black;
+    margin: 0 0 27px;
+    padding: 0;
+}
+.schedule-page-header {
+    margin: 20px 0 2px;
+    float: left;
+    font-weight: 600;
+    font-family: "alternate-gothic-no-1-d","Futura Condensed","Arial Narrow",Arial,sans-serif;
+}
+.page-header-emphasis {
+    color: #ff7900;
+}
+.movie-list {
+    margin: 0 -30px 20px 0;
+    overflow: auto;
+    list-style: none;
+}
+.visual-list {
+    list-style-type: none;
+    margin: 0;
+}
+.movie-list .visual-item {
+    float: left;
+    margin: 0 26px 20px 0;
+}
+.visual-item {
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    min-height: 254px;
+    position: relative;
+    text-align: left;
+    width: 150px;
+}
+.visual-container {
+    background: #000;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.visual-detail {
+    display: block;
+    padding: 5px;
+    background: #fff;
+}
+.movie-list .visual-title {
+    font-size: 16px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0 10px 0 0;
+    max-height: 40px;
+    white-space: normal;
+    font-weight: 600;
+}
+.visual-title {
+    display: block;
+    font-family: "alternate-gothic-no-1-d","Futura Condensed","Arial Narrow",Arial,sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 20px;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    text-align: left;
+}
+.visual-sub-title {
+    color: #929292;
+    display: block;
+    font-family: "Times New Roman",serif;
+    font-style: italic;
+    line-height: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.img-size{
+    width: 100px;
+    height: 100px;
+}
+.revenue-img-size{
+    width: 50px;
+    height: 50px;
+}
+.modal{ display:block; }
+.label-color{
+    color: black;
+}
+.submit-btn{
+    background-color: #F15500;
+    border-color: #F15500;
+}
+.table-header{
+    font-weight: normal !important;
+    font-size: 16px !important;
+  }
+  .rt-thead.-header{
+    background: #4D525B !important;
+    color:  steelblue;
+    font-weight: 600;
+    line-height: 1.43;
+    border-top: 0;
+    font-weight: 400;
+    height: 56px;
+    padding: 12px 10px;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: #F7F7F7;
+  }
+  .rt-tr-group{
+    color: #808080;
+    margin: 5px;
+  }
+  .rt-tr-group:nth-child(even) {
+    background-color: #f5f5f5 !important;
+    line-height: 1.2;
+    font-weight: unset;
+  }
+  .rt-table{
+    background: white !important;
+  }
+  .fl-right{
+      float: right
+  }
+  .-pageInfo ,.-totalPages,.-pageJump{
+      color: black;
+  }
+  .edit-icon-btn{
+      font-size: 18px;
+      color: #ff7900;
+  }
+  .delete-icon-btn{
+    font-size: 18px;
+    color: #ff7900;
+}   
+.cancel-icon-btn{
+    font-size: 18px;
+    color: #ff7900;
+    font-weight: bolder;
+}
+.ReactTable .-pagination .-btn{
+    background-color: #F15500 !important;
+    opacity: 0.5 !important;
+    color: black !important;
+    font-weight: bolder !important;
+}
+.booking-id-font{
+    text-align: left;
+    padding-top: 0px;
+    font-weight: bold;
+    color: #4c4c4c;
+    font-size: 30px;
+    font-family: "alternate-gothic-no-1-d","Futura Condensed","Arial Narrow",Arial,sans-serif;
+}
+.booking-input{
+    height: 35px !important;
+    margin-top: 5px !important;
+}
+.booking-search{
+    margin-right: 5px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+.datepicker-div .react-datepicker__input-container input{
+    margin-top: 5px;
+    height: 40px;
+}
+.rt-noData{
+    z-index: 0 !important;
+}

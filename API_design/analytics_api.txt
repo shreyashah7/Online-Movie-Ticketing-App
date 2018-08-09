@@ -1,0 +1,38 @@
+Analytics Module:
+1) getTopTenMoviesByRevenue(year)
+input: year
+response: sorted list of top 10 movie_revenue_JSON
+movie_revenue_JSON will contain: movie_name,revenue
+
+2) getMovieRevenueByCity(movie_city_revenueJSON)
+movie_city_revenueJSON: movie_id,city,year
+response: revenue
+
+3) getHallsByTicketsSold
+description :  To get the top 10 halls data that sold the maximum no of tickets in last month.
+response: hall_name, no_of_tickets,total_revenue
+
+4)getClicksperPage:
+description: This is to fetch the clicks per page for the specified month and year. This data will be retrieved from logs.
+input: month,year
+response: list of clicksJSON
+clicksJSON  will contain : page_name, no_of_clicks
+
+5) getMovieByClicks:
+description: This is to fetch the movies per clicks for the specified month and year. This data will be retrieved from logs.
+input: month,year
+response: movie_name,no_of_clicks
+
+6) getLessSeenArea
+description: This is to fetch the sections of page which is less clicked by user. This data will be retrieved from the logs.
+input: month,year
+response: page_name,section_name
+
+7) getMovieByRating
+description: This is to fetch the details of the top ten movies by rating in the last 6 months
+input: N/A
+response: movie_name,average_rating(sorted list of top 10 movies by review rating).
+
+8) getUserTracking(userids)
+Input : array of userids (one or many)
+return : return user array (user_id, zipcode, city, number of bookings etc)

@@ -1,0 +1,226 @@
+.movie-overview-layout-left-section1{
+    width: 100%;
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 1px;
+    display: block;
+
+}
+
+.movie-overview-layout-left-section1-poster{
+    display: block;
+    float: left;
+    overflow: hidden;
+    background-color: transparent;
+    text-decoration: none;
+    color: #4AA7F6;
+    transition: color .3s linear;
+
+}
+
+.movie-overview-layout-left-section1-poster-image{
+    height: 250px;
+    width: 164px;
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity .25s,transform .25s;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+.movie-overview-layout-left-section1-detail{
+    background-color: #262626;
+    min-height: 250px;
+    margin: 0;
+    font-size: .929em;
+    line-height: 1.4;
+    padding: 15px 0;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    text-align: center;
+    list-style-type: none;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    display: block;
+    color: #ccc;
+
+}
+
+.movie-overview-layout-left-section1-detail-release-date{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.857em;
+    line-height: 1;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-style: normal;
+    font-family: alternate-gothic-no-1-d,"Futura Condensed","Arial Narrow",Arial,sans-serif;
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+
+.movie-overview-layout-left-section1-detail-rating{
+    margin: 15px 0 5px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: .929em;
+    line-height: 1.4;
+    font-family: "Times New Roman";
+    font-style: italic;
+    list-style-type: none;
+    color: #ccc;
+
+}
+
+
+.movie-overview-layout-left-section1-detail-rating-inner{
+    direction: rtl;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+    font-size: .929em;
+    line-height: 1.4;
+    font-family: "Times New Roman";
+    font-style: italic;
+    list-style-type: none;
+    color: #ccc;
+
+}
+
+.movie-overview-layout-left-section1-detail-rating-inner-star{
+    background-position-x: -32px;
+    background-position: 0 0;
+    background-size: auto 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20enc…C12.2%2051%2C16%2053%2C9.9%2048%2C6.1%2054.1%2C6.1%20%22%2F%3E%3C%2Fsvg%3E);
+    background-repeat: no-repeat;
+    font-size: 0;
+    direction: ltr;
+    background-color: transparent;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #4AA7F6;
+    transition: color .3s linear;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+    line-height: 1.4;
+    font-family: "Times New Roman";
+    font-style: italic;
+
+}
+
+.icon{
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    direction: ltr;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: transparent;
+
+}
+
+.movie-overview-layout-left-section1-detail-rating-number{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    line-height: 1.4;
+    font-family: "Times New Roman";
+    font-style: italic;
+    list-style-type: none;
+
+}
+
+.movie-overview-layout-left-section1-detail-seeitin{
+    background-color: #262626;
+    border: 1px solid #5c5c5c;
+    color: #c9c9c9;
+    clear: both;
+    text-align: left;
+    min-height: 28px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    display: block;
+
+    font-size: 14px;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+
+}
+
+.movie-overview-layout-left-section1-detail-seeitin-header{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1px 0 0;
+    background-color: #5c5c5c;
+    color: #c4c4c4;
+    vertical-align: top;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    text-align: center;
+    width: 29%;
+    font-family: alternate-gothic-no-1-d,"Futura Condensed","Arial Narrow",Arial,sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+
+.movie-overview-layout-left-section1-detail-seeitin-header-format{
+    display: inline-block;
+    margin: 0 0 0 6px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 11px;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+
+}
+
+.movie-overview-layout-left-section1-detail-seeitin-header-format:after{
+    content: "";
+    display: inline-block;
+    height: 12px;
+    font-size: 0;
+    border-right: 1px solid #d8d8d8;
+    padding-left: 8px;
+    vertical-align: middle;
+    margin: 6px 0 7px;
+}
+
+.movie-overview-layout-left-section1-detail-seeitin-header-format-span{
+    box-sizing: border-box;
+    line-height: 26px;
+    font-size: 11px;
+    color: #fff;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+
+}
